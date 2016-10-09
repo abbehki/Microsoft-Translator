@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <EditText
+
+        android:id="@+id/text"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="31dp"
+
+        android:ems="10" >
+
+        <requestFocus />
+
+    </EditText>
+
+
+
+    <LinearLayout
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="fill_parent"
+
+        android:orientation="vertical" >
+
+        <TextView
+
+            android:id="@+id/translatedtext"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/etUserText"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="168dp"
+
+            android:text=""
+
+            android:layout_marginLeft="90dp"
+
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+
+            android:id="@+id/selectLanguage"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/etUserText"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="50dp"
+
+            android:prompt="@string/choose_lang"
+
+            android:entries="@array/lang"
+
+            android:layout_marginLeft="90dp"/>
+
+        <Button
+
+            android:id="@+id/say"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/tvTranslatedText"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="46dp"
+
+            android:text="Say"
+
+            android:background="#ff69b4"
+
+            android:layout_marginLeft="100dp" />
+
+    </LinearLayout>
+
+</RelativeLayout> 

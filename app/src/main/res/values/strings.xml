@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">ABHAYS TRANSLATOR</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="choose_lang">Choose Language</string>
+
+
+
+    <string-array name="lang">
+
+        <item>ENGLISH</item>
+
+        <item>HINDI</item>
+
+
+
+    </string-array>
+
+
+
+</resources>
